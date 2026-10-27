@@ -24,11 +24,11 @@ function tellJoke() {
 
 //   // STEP 6: Generate a random number
 //   // NOTE: This creates a random number between 0 and 5
-//   let randomNum = Math.floor(Math.random() * 6);
+  let randomNum = Math.floor(Math.random() * 6);
 
 
 //   // STEP 7: Create a variable to store the final answer
-//   let answer;
+//   let joke;
 
 
 //   // STEP 8: Use conditional statements to choose an answer
@@ -38,27 +38,27 @@ function tellJoke() {
 //   switch (randomNum) {
       
 //       case 1: 
-//           answer = "Heck ya!☺️ "
+//           joke = "Heck ya!☺️ "
 //       break;
       
 //       case 2: 
-//           answer = "ABSolutely Not!☹️"
+//           joke = "ABSolutely Not!☹️"
 //       break;
       
 //       case 3: 
-//           answer = "Probably?🤔"
+//           joker = "Probably?🤔"
 //       break;
       
 //       case 4: 
-//           answer = "I don't know, to be honest...🙄"
+//           joker = "I don't know, to be honest...🙄"
 //       break;
       
 //       case 5: 
-//           answer = "Most likely not...😗"
+//           joker = "Most likely not...😗"
 //       break;
       
 //       default: 
-//           answer = "Oops! An error has occured. Ask again.🙂‍↔️"
+//           joke = "Oops! An error has occured. Ask again.🙂‍↔️"
     
       
       
@@ -69,7 +69,7 @@ function tellJoke() {
 
 //   // STEP 9: Display the final answer on the page
 //   // TODO: Select the answerText element and display the answer variable
-//   document.getElementById("answerText").textContent = answer;
+//   document.getElementById("answerText").textContent = joke;
 
   
   
