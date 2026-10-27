@@ -6,33 +6,20 @@
 
 // // STEP 1: Select the button from the page
 // // TODO: Use document.getElementById to select the button
-let jokeBtn = document.getElementById ("askBtn");
+let jokeBtn = document.getElementById ("btn");
 
 
 // // STEP 2: Add a click event listener to the button
 // // TODO: When the button is clicked, run the askQuestion function
-// askButton.addEventListener("click", askQuestion);
+jokeBtn.addEventListener("click", tellJoke);
 
 
 // // STEP 3: Create the function that runs when the button is clicked
-// function askQuestion() {
+function tellJoke() {
 
-//   // STEP 4: Get the user's question from the input box
-//   // TODO: Select the input and store its value in a variable
-//   let question = document.getElementById ("questionInput").value;
-// //   console.log(question);
+}
 
 
-//   // STEP 5: Check if the question is empty
-//   // TODO: Write an if statement that checks if question is an empty string
-//   if ( question === "") {
-
-//     // TODO: Display an error message in the answerText element
-//     document.getElementById("answerText").textContent = "Error; You must write a question.😢";
-
-//     // NOTE: This stops the function so no other code runs
-//     return;
-//   }
 
 
 //   // STEP 6: Generate a random number
