@@ -50,11 +50,11 @@ function tellJoke() {
 //       break;
       
 //       case 4: 
-//           joker = "I don't know, to be honest...🙄"
+//           joke = "I don't know, to be honest...🙄"
 //       break;
       
 //       case 5: 
-//           joker = "Most likely not...😗"
+//           joke = "Most likely not...😗"
 //       break;
       
 //       default: 
