@@ -6,7 +6,7 @@
 
 // // STEP 1: Select the button from the page
 // // TODO: Use document.getElementById to select the button
-// let askButton = document.getElementById ("askBtn");
+let jokeBtn = document.getElementById ("askBtn");
 
 
 // // STEP 2: Add a click event listener to the button

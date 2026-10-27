@@ -13,6 +13,8 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color:#f4ac5f;
+    transform: translateY(30px);
 }
 /*font*/
 
@@ -32,7 +34,19 @@ h1 {
 
  }
 
+ /* colors for site */
  #head {
     transform: translateY(10px);
+        color:#e3e0e1;
  }
 
+
+ #cardBod {
+ background-color:#e3e0e1;
+ color:#430f1b;
+ }
+
+#cardHeader {
+    color:#e3e0e1;
+     background-color: #430f1b;
+}
