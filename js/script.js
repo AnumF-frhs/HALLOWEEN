@@ -69,7 +69,7 @@ function tellJoke() {
 
 //   // STEP 9: Display the final answer on the page
 //   // TODO: Select the answerText element and display the answer variable
-//   document.getElementById("answerText").textContent = joke;
+//   document.getElementById("jokeText").textContent = joke;
 
   
   
