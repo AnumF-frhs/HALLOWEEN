@@ -1,6 +1,19 @@
 /* colors here */
 
+/* body {
+    color: #ee8d3e;
+    color:#430f1b;
+    color:#e3e0e1;
+    color:#a76f50;
+    color:#f4ac5f;
+} */
 
+body {
+
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 /*font*/
 
 h1 {
@@ -19,4 +32,7 @@ h1 {
 
  }
 
+ #head {
+    transform: translateY(10px);
+ }
 
