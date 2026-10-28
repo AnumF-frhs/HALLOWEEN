@@ -17,17 +17,10 @@ jokeBtn.addEventListener("click", tellJoke);
 // // STEP 3: Create the function that runs when the button is clicked
 function tellJoke() {
 
-}
-
-
-
-
-//   // STEP 6: Generate a random number
-//   // NOTE: This creates a random number between 0 and 5
+  
   let randomNum = Math.floor(Math.random() * 6);
 
 
-  // STEP 7: Create a variable to store the final answer
   let joke;
 
 
@@ -70,6 +63,13 @@ function tellJoke() {
 //   // STEP 9: Display the final answer on the page
   // TODO: Select the answerText element and display the answer variable
   document.getElementById("jokeText").textContent = joke;
+
+}
+
+
+
+
+
 
   
   
