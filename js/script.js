@@ -1,4 +1,4 @@
-// alert("I have some Twix up my sleeve! 😂");
+alert("I have some Twix up my sleeve! 🍫");
 
 
 
@@ -31,27 +31,27 @@ function tellJoke() {
   switch (randomNum) {
       
       case 1: 
-          joke = "What does Elon Musk do on Halloween? He goes trick-or-tweeting.☺️ "
+          joke = "What does Elon Musk do on Halloween? He goes trick-or-tweeting.🍬 "
       break;
       
       case 2: 
-          joke = "Why are spiders great at coding? They are natural web developers!"
+          joke = "Why are spiders great at coding? They are natural web developers! 🕷️"
       break;
       
       case 3: 
-          joke = "Why did the mummy never stress about group projects? He knew how to unwind."
+          joke = "Why did the mummy never stress about group projects? He knew how to unwind. 🧻"
       break;
       
       case 4: 
-          joke = "Why did the skeleton fail his art class? He only knew how to make skull-ptures."
+          joke = "Why did the skeleton fail his art class? He only knew how to make skull-ptures. 💀"
       break;
       
       case 5: 
-          joke = "What did the student say after failing their monster history exam? 'I guess I am just dead-icated to summer school'."
+          joke = "What did the student say after failing their monster history exam? 'I guess I am just dead-icated to summer school'. 🧟‍♀️"
       break;
       
       default: 
-          joke = "Your trick yields no treat. Press the button again! 🙂‍↔️"
+          joke = "Your trick yields no treat. Press the button again! 👿"
     
       
       
