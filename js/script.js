@@ -27,49 +27,49 @@ function tellJoke() {
   let randomNum = Math.floor(Math.random() * 6);
 
 
-//   // STEP 7: Create a variable to store the final answer
-//   let joke;
+  // STEP 7: Create a variable to store the final answer
+  let joke;
 
 
-//   // STEP 8: Use conditional statements to choose an answer
-//   // TODO: Use a switch statement
-//   // TODO: Match each possible random number to a different answer
+  // STEP 8: Use conditional statements to choose an answer
+  // TODO: Use a switch statement
+  // TODO: Match each possible random number to a different answer
   
-//   switch (randomNum) {
+  switch (randomNum) {
       
-//       case 1: 
-//           joke = "Heck ya!☺️ "
-//       break;
+      case 1: 
+          joke = "What does Elon Musk do on Halloween? He goes trick-or-tweeting.☺️ "
+      break;
       
-//       case 2: 
-//           joke = "ABSolutely Not!☹️"
-//       break;
+      case 2: 
+          joke = "Why are spiders great at coding? They are natural web developers!"
+      break;
       
-//       case 3: 
-//           joker = "Probably?🤔"
-//       break;
+      case 3: 
+          joke = "Why did the mummy never stress about group projects? He knew how to unwind."
+      break;
       
-//       case 4: 
-//           joke = "I don't know, to be honest...🙄"
-//       break;
+      case 4: 
+          joke = "Why did the skeleton fail his art class? He only knew how to make skull-ptures."
+      break;
       
-//       case 5: 
-//           joke = "Most likely not...😗"
-//       break;
+      case 5: 
+          joke = "What did the student say after failing their monster history exam? 'I guess I am just dead-icated to summer school'."
+      break;
       
-//       default: 
-//           joke = "Oops! An error has occured. Ask again.🙂‍↔️"
+      default: 
+          joke = "Your trick yields no treat. Press the button again! 🙂‍↔️"
     
       
       
-//   }
+  }
 
 
 
 
 //   // STEP 9: Display the final answer on the page
-//   // TODO: Select the answerText element and display the answer variable
-//   document.getElementById("jokeText").textContent = joke;
+  // TODO: Select the answerText element and display the answer variable
+  document.getElementById("jokeText").textContent = joke;
 
   
   
