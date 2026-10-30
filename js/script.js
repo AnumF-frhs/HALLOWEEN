@@ -1,7 +1,7 @@
-alert("I have some Twix up my sleeve! 🍫");
+// alert("I have some Twix up my sleeve! 🍫");
 
 
-
+//mod js to array
 let jokeBtn = document.getElementById ("btn");
 jokeBtn.addEventListener("click", tellJoke);
 
