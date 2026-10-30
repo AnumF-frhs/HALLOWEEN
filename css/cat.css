@@ -1,20 +1,23 @@
 /* colors here */
 
- /* body {
-    color: #ee8d3e;
+
+/* body {
+      color: #ee8d3e;
     color:#430f1b;
     color:#e3e0e1;
     color:#a76f50;
     color:#f4ac5f;
-}  */
+} */
 
 body {
 
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #000000;
+  /* background-color: #430f1b; */
     transform: translateY(30px);
+    background: radial-gradient(circle at center, #c25d28 0%, #430f1b 100%);
+  overflow-x: hidden;
 }
 /*font*/
 
@@ -37,7 +40,8 @@ h1 {
  /* colors for site */
  #head {
     transform: translateY(10px);
-        color:#880606;
+        color:#eeeeee;
+        text-shadow: 0 0 5px #6b6a6a, 0 0 10px #363635, 0 0 20px #817f7d, 0 0 40px #646362;
  }
 
 
@@ -53,6 +57,9 @@ h1 {
 
 .card {
    box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.25);
+     max-width: 800px;
+   margin: 0 auto;
+   /* tranform; */
 }
 
 /* text animation */
@@ -178,3 +185,43 @@ button:hover::after {
  }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+js background */
+/* @keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    text-shadow: 0 0 4px #ff6600, 0 0 10px #ff6600, 0 0 20px #ff3300;
+    opacity: 1;
+  }
+  20%, 24%, 55% {
+    text-shadow: none;
+    opacity: 0.7;
+  }
+} */
+
+#halloween-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* width: 100%;
+  height: 100%; */
+  z-index: -1;
+  pointer-events: none;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* color: #ff6600; */
+  text-align: center;
+}
